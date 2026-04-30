@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+}
+
+input,
+button {
+  padding: 0.6rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #e2e8f0;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+th {
+  background: #f1f5f9;
+}

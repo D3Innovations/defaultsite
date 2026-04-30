@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sentiment Analyzer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>File Sentiment Analyzer</h1>
+      <p>Upload text-based files and run sentiment analysis.</p>
+
+      <form id="upload-form">
+        <label>
+          Backend API URL
+          <input id="api-url" type="url" value="http://localhost:8000" required />
+        </label>
+
+        <label>
+          Files
+          <input id="files" type="file" multiple required />
+        </label>
+
+        <button type="submit">Analyze</button>
+      </form>
+
+      <p id="status"></p>
+
+      <table id="results">
+        <thead>
+          <tr>
+            <th>Filename</th>
+            <th>Label</th>
+            <th>Confidence</th>
+            <th>Characters Analyzed</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

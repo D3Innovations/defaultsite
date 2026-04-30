@@ -67,7 +67,7 @@ sudo apt install -y python3 python3-venv python3-pip nodejs npm nginx
 ### Step B — Copy project to server
 
 ```bash
-git clone <your-repo-url> sentiment-app
+git clone https://github.com/omosaiye/sentimentAnn.git sentiment-app
 cd sentiment-app
 ```
 
